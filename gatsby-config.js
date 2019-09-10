@@ -36,8 +36,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `gatsby-restaurant-starter`,
+        short_name: `food-site`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
