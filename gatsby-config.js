@@ -10,11 +10,11 @@ module.exports = {
             },
             {
                name:'menu',
-               link:'#menu'
+               link:'/#menu'
             },
             {
               name:'reservations',
-              link: '/reservations'
+              link: '/form-page'
             },
             {
               name:'contact',

@@ -1,8 +1,11 @@
 import React from "react"
+import { Link } from "gatsby"
 
 const Button = () => (
-    <div style={{ margin: '2rem, 0, 2rem, 0', padding: '2rem, 0, 2rem, 0'}}>
-        <button type="button" onclick="">Reserve a Table</button>    
+    <div style={{ margin: '2em, 0, 2em, 0', padding: '2em, 0, 2em, 0'}}>
+        <button type="button" onclick="">
+           Reserve a Table
+        </button>    
     </div>
 )
 

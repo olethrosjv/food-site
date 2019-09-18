@@ -148,6 +148,14 @@ fieldset {
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
+form label {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+}
+form input {
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
 legend {
   box-sizing: border-box;
   color: inherit;

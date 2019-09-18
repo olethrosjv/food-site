@@ -1,9 +1,10 @@
 import React from "react"
+import "./layout.css"
 
 
 const About = () => (
     <section>
-      <h2>About Section</h2>
+      <h2>About</h2>
       <p>This is a UI Mock Site. It can be used for a template for many different kinds of one-page websites, but it is ideally meant for foodservice
         based businesses such as restaurants and food carts.
       </p>

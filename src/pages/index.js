@@ -1,6 +1,6 @@
 import React from "react"
 
-import { Link } from "gatsby"
+//import { Link } from "gatsby"
 
 import About from "../components/About"
 import Layout from "../components/layout"
@@ -14,20 +14,21 @@ const IndexPage = () => (
   <>
   <Layout>
   <SEO title="Home" />
-  <div style= {{ maxHeight: 350, maxWidth: 600, margin: '2rem, 1rem'}}>
-  <Image 
-  alt="Professional Kitchen"
-  />
+  <div style= {{ maxHeight: 350, maxWidth: 600, margin: '1rem, 1rem'}}>
+  
+  <Image alt="Professional Kitchen"/>
 
   </div>
   
+  <h2>About</h2>
+
   <About />
+
       
   <Menu />
  
   <Button />
 
-  <Link to="/page-2/">Go to page 2</Link>
   </Layout>
   
   </>

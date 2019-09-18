@@ -1,58 +1,33 @@
 import React from "react"
-import { Link } from "gatsby"
+//import { Link } from "gatsby"
 import Image from "../components/image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import LunchMenu from "../components/LunchMenu"
+import Button from "../components/button"
+
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Lunch Menu" />
-    <h1>Lunch Menu</h1>
+  <SEO title="Lunch Menu" />
     
   <div style= {{ maxWidth: 600, margin: '2rem, 1rem'}}>
-  <Image 
-  alt="Professional Kitchen"
-  />
-
-    <div style= {{ display: 'inline'}}>
-      <h2>Category</h2>
-      <ul style= {{ display: 'inline'}}>
-        <li>
-          Item
-        </li>
-        <li>
-          Item
-        </li>
-        <li>
-          Item
-        </li>
-        <li>
-          Item
-        </li>
-        <li>
-          Item
-        </li>
-        <li>
-          Item
-        </li>
-        <li>
-          Item
-        </li>
-        <li>
-          Item
-        </li>
-        <li>
-          Item
-        </li>
-        
-      </ul>
-    </div>
-
+  <Image alt="Professional Kitchen"/>
 
   </div>
 
-    <Link to="/">Go back to the homepage</Link>
+  
+ 
+  <LunchMenu/>  
+ 
+  
+
+  <Button />
+
+  
+
+    
   </Layout>
 )
-
+//<Link to="/">Go back to the homepage</Link>
 export default SecondPage

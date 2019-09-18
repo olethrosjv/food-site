@@ -40,7 +40,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer style={{ paddingTop: '1.5rem' }}>
+        <footer style={{ paddingTop: '1.5rem', marginTop: '1em' }}>
           © {new Date().getFullYear()}, Designed and Developed by 
           {` `}
           <a href="https://www.linkedin.com/in/joevaughn1/">Joe Vaughn</a>
