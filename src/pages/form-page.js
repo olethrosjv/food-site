@@ -1,7 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
-//import Layout from "../components/layout"
-//import SEO from "../components/seo"
+//import { Link } from "gatsby"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 export default class FormPage extends React.Component {
     state = {
@@ -23,13 +23,15 @@ export default class FormPage extends React.Component {
 
       handleSubmit = event => {
       event.preventDefault()
-      alert(`Welcome ${this.state.firstName} ${this.state.lastName}!`)
+      alert(`Thank you ${this.state.firstName} ${this.state.lastName}! Your reservation has been made`)
       }
 
     render() {
     return (
-  
-    <form onSubmit={this.handleSubmit} style={{  maxHeight: 900, maxWidth: 1200, marginTop: '1em' }}>
+  <Layout>
+   <SEO title='form-page' />
+    <form onSubmit={this.handleSubmit} style={{  maxHeight: 900, maxWidth: 1200, marginTop: '1em' }} method="post" netlify-honeypot="bot-field" data-netlify="true">
+    <input type="hidden" name="bot-field" />
     <label>
       First name
       <input             
@@ -82,25 +84,8 @@ export default class FormPage extends React.Component {
     <br></br>
     <button type="submit">Submit</button>
   </form>
+  </Layout>
 
     )
     }
 }
-/*const FormPage= () => (
-    <>
-    <Layout>
-    <SEO title="Home" />
-    <div style= {{ maxHeight: 350, maxWidth: 600, margin: '1rem, 1rem'}}>
-    
-    <Image alt="Professional Kitchen"/>
-
-    </div>
-
-    <Link to="/">Go back to the homepage</Link>
-
-    </Layout>
-    </>
-
-)*/
-
-//export default FormPage

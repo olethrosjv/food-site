@@ -9,7 +9,7 @@ const Menu = () => (
       <h2>Menu</h2>
       <ul className="section group">
         <li className="col span_1_of_3">
-            <Link to="./page-2" style={{ color: `black`, textDecoration: `none` }}>Lunch</Link>      
+            <Link to="./menu-page" style={{ color: `black`, textDecoration: `none` }}>Lunch</Link>      
         </li>
         <li className="col span_1_of_3">
             <Link to="" style={{ color: `black`, textDecoration: `none` }}>Dinner</Link>         
