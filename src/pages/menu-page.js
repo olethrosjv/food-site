@@ -12,12 +12,19 @@ const MenuPage = () => (
   <SEO title="Menu Page" />
   
   <div class="container"
-  style={{ 
-      
-   }}
   
   >
-  <div class="group-header">
+  TO DO: STYLED MENU
+</div>
+</Layout>
+  
+  </>
+)
+export default MenuPage
+
+
+/*
+<div class="group-header">
     <span>12 oz.</span>
     <span>34 oz.</span>
   </div>
@@ -40,12 +47,5 @@ const MenuPage = () => (
     <span>56</span>
   </h3>
   <p>A well-written, appetite inspiring description that aims to inform the information and food deprived consumer</p>
-</div>
 
-</Layout>
-  
-  </>
-)
-export default MenuPage
-
-
+*/
