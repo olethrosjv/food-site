@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
   `)
 
   // change link in footer to portfolio once it is updated to gatsby site
-
+// <aside><div style= {{ maxWidth: 300, marginLeft: '1rem', float: 'left'}}>This will be a side bar</div></aside>
   return (
     <>
       <Header menuLinks={data.site.siteMetadata.menuLinks} siteTitle={data.site.siteMetadata.title} />
