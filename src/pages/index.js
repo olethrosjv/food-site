@@ -14,13 +14,15 @@ const IndexPage = () => (
   <>
   <Layout>
   <SEO title="Home" />
+  
+  
   <div style= {{ maxHeight: 350, maxWidth: 600, margin: '1rem, 1rem'}}>
   
   <Image alt="Professional Kitchen"/>
 
   </div>
   
-  <h2>About</h2>
+  
 
   <About />
 
