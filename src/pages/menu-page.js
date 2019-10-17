@@ -11,10 +11,22 @@ const MenuPage = () => (
   <Layout>
   <SEO title="Menu Page" />
   
-  <div class="container"
-  
-  >
-  TO DO: STYLED MENU
+  <div class="container">
+
+  <table>
+    <tr>
+      <thead style={{ alignContent: "center" }}>Lunch</thead>
+    </tr>
+    <tr>
+      <td>Item</td><td></td><td>Price</td>
+    </tr>
+    <tr>
+    <td>Soup of the Day</td><td>...</td><td>$ 3</td>
+    </tr>
+    <tr>
+    <td>Mixed Greens Salad</td><td>...</td><td>$ 5/ Add Chicken $8</td>
+    </tr>
+  </table>
 </div>
 </Layout>
   
@@ -23,29 +35,3 @@ const MenuPage = () => (
 export default MenuPage
 
 
-/*
-<div class="group-header">
-    <span>12 oz.</span>
-    <span>34 oz.</span>
-  </div>
-  
-  <h3>
-    <span>Fancy Food Item</span>
-    <span>25</span>
-    <span>56</span>
-  </h3>
-  <p>A well-written, appetite inspiring description that aims to inform the information and food deprived consumer</p>
-  <h3>
-    <span>Fancy Food Item</span>
-    <span>25</span>
-    <span>56</span>
-  </h3>
-  <p>A well-written, appetite inspiring description that aims to inform the information and food deprived consumer</p>
-  <h3>
-    <span>Fancy Food Item</span>
-    <span>25</span>
-    <span>56</span>
-  </h3>
-  <p>A well-written, appetite inspiring description that aims to inform the information and food deprived consumer</p>
-
-*/
