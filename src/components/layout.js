@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /**
  * Layout component that queries for data
  * with Gatsby's useStaticQuery component
@@ -56,7 +55,7 @@ Layout.propTypes = {
 }
 
 export default Layout
-=======
+
 /**
  * Layout component that queries for data
  * with Gatsby's useStaticQuery component
@@ -114,4 +113,3 @@ Layout.propTypes = {
 }
 
 export default Layout
->>>>>>> e25ba01293372ee12a9450a959f8ccc152d18528
