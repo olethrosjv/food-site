@@ -15,7 +15,7 @@ const Header = ({ siteTitle, menuLinks }) => (
     <div
       style={{
         margin: `0 auto`,
-        maxWidth: 960,
+        maxWidth: '100%',
         padding: `1rem`,
       }}
     >
